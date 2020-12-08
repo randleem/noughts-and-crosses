@@ -25,12 +25,14 @@ function App() {
       }
       return false;
     });
+
     for (let i = 0; i < lines.length; i++) {
       const [a, b, c] = lines[i];
       if (board[a] && board[a] === board[b] && board[a] === board[c]) {
+        
         return `${board[a]} is the WINNER!!!`;
       }
-      else if (draw === undefined ){
+      else if (draw === undefined){
         return 'Its a DRAW!!!'
       }
     }
@@ -60,6 +62,7 @@ function App() {
     let h2 = document.querySelector("h2");
     h2.innerText = ""
     setBoard(nullList);
+    setXisNext("🐘")
   }
 
   return (
