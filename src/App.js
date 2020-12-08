@@ -19,10 +19,19 @@ function App() {
       [0, 4, 8],
       [2, 4, 6],
     ];
+    let draw = board.find((x) => {
+      if (x === null){
+        return true;
+      }
+      return false;
+    });
     for (let i = 0; i < lines.length; i++) {
       const [a, b, c] = lines[i];
       if (board[a] && board[a] === board[b] && board[a] === board[c]) {
-        return board[a];
+        return `${board[a]} is the WINNER!!!`;
+      }
+      else if (draw === undefined ){
+        return 'Its a DRAW!!!'
       }
     }
     return null;
@@ -43,7 +52,7 @@ function App() {
     const winner = calculateWinner(newBoard);
     if (winner !== null) {
       let h2 = document.querySelector("h2");
-      h2.innerText = `${winner} is the WINNER!!!`;
+      h2.innerText = `${winner}`;
     }
   }
 
@@ -57,7 +66,7 @@ function App() {
     <div>
       <div className="grid-container">
         {board.map((item, index) => (
-          <Button  item={item} index={index} handleClick={handleClick} />
+          <Button item={item} index={index} handleClick={handleClick} />
         ))}
       </div>
       <div>
@@ -69,5 +78,3 @@ function App() {
 
 export default App;
 
-//item is either null, X or 0 on the board
-//index is index from array
