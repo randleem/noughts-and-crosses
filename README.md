@@ -22,12 +22,12 @@ Happy Gaming :)
 ## Installation
 
 1. Clone the repository
-`https://github.com/randleem/noughts-and-crosses.git`
+```https://github.com/randleem/noughts-and-crosses.git```
 
 2. Navigate to the repo
 
 3. Install the node modules
-`npm i`
+```npm i```
 
 4. Start the application
-`npm run start`
+```npm run start```
