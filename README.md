@@ -1,4 +1,4 @@
-# noughts-and-crosses
+# Noughts & Crosses
 
 *October 2020*
 
