@@ -11,3 +11,23 @@ For our Friday hackathon, we (my partner @FreshtaEbrahim and I) converted [this 
 There is one small bug that still needs fixing (if someone wins on the last go it says a draw).
 
 Happy Gaming :)
+
+## Built With:
+
+- HTML
+- CSS
+- JavaScript
+- React
+
+## Installation
+
+1. Clone the repository
+`https://github.com/randleem/noughts-and-crosses.git`
+
+2. Navigate to the repo
+
+3. Install the node modules
+`npm i`
+
+4. Start the application
+`npm run start`
