@@ -1,9 +1,9 @@
 # Noughts & Crosses
 
-*30th October 2020*
-*Week 6 [School of Code](https://www.schoolofcode.co.uk)
+_30th October 2020_
+\*Week 6 [School of Code](https://www.schoolofcode.co.uk)
 
-During week 6 of School of Code we were first introduced to React. 
+During week 6 of School of Code we were first introduced to React.
 
 For our Friday hackathon, we (my partner @FreshtaEbrahim and I) converted [this OOP tutorial](https://reactjs.org/tutorial/tutorial.html) into a React component based Noughts & Crosses game.
 
@@ -12,6 +12,8 @@ For our Friday hackathon, we (my partner @FreshtaEbrahim and I) converted [this 
 There is one small bug that still needs fixing (if someone wins on the last go it says a draw).
 
 Happy Gaming :)
+
+![Winner of Game](./Winner.png)
 
 ## Built With:
 
@@ -23,12 +25,12 @@ Happy Gaming :)
 ## Installation
 
 1. Clone the repository
-```https://github.com/randleem/noughts-and-crosses.git```
+   `https://github.com/randleem/noughts-and-crosses.git`
 
 2. Navigate to the repo
 
 3. Install the node modules
-```npm i```
+   `npm i`
 
 4. Start the application
-```npm run start```
+   `npm run start`
