@@ -1,6 +1,7 @@
 # Noughts & Crosses
 
-*October 2020*
+*30th October 2020*
+*Week 6 [School of Code](https://www.schoolofcode.co.uk)
 
 During week 6 of School of Code we were first introduced to React. 
 
